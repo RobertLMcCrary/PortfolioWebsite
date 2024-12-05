@@ -213,6 +213,116 @@ function Home() {
                         />
                     </div>
                 </div>
+
+                <div className="mt-12">
+                    <h3 className="text-2xl font-bold text-green-400 mb-4">
+                        My Tech Stack
+                    </h3>
+                    <div className="grid grid-cols-4 md:grid-cols-8 gap-6 p-4">
+                        {/* Languages */}
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-java-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Java</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-python-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Python</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-csharp-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">C#</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-cplusplus-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">C++</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-mysql-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">SQL</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-javascript-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">JavaScript</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-typescript-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">TypeScript</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-go-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Go</span>
+                        </div>
+
+                        {/* Frameworks */}
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-react-original colored text-4xl"></i>
+                            <span className="text-sm mt-2">React</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-nodejs-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Node.js</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-express-original text-4xl"></i>
+                            <span className="text-sm mt-2">Express</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-nextjs-original-wordmark text-8xl"></i>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-opengl-plain text-4xl"></i>
+                            <span className="text-sm mt-2">OpenGL</span>
+                        </div>
+
+                        {/* Developer Tools */}
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-vim-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Vim</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-git-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Git</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-vscode-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">VS Code</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-visualstudio-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Visual Studio</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-pycharm-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">PyCharm</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-intellij-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">IntelliJ</span>
+                        </div>
+
+                        {/* Libraries */}
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-pandas-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">pandas</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-numpy-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">NumPy</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-pytorch-original colored text-4xl"></i>
+                            <span className="text-sm mt-2">Torch</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-unity-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Unity</span>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <i className="devicon-lua-plain colored text-4xl"></i>
+                            <span className="text-sm mt-2">Lua</span>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             {/* GitHub Calendar */}
