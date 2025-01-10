@@ -80,14 +80,6 @@ function Home() {
                         </p>
                         <div className="mt-4 flex justify-between">
                             <a
-                                href="https://github.com/RobertLMcCrary/PseudoAI.git"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-green-400 hover:text-green-300 underline"
-                            >
-                                GitHub
-                            </a>
-                            <a
                                 href="https://pseudoaidev.vercel.app"
                                 target="_blank"
                                 rel="noopener noreferrer"
