@@ -7,6 +7,8 @@ import Image from 'next/image';
 //images
 import hackathon2 from '../images/hackathon2.jpg';
 import hackathon3 from '../images/hackathon3.jpg';
+import hackathon4 from '../images/hackathon4.jpg';
+import hackathon6 from '../images/hackathon6.jpg';
 import nvim1 from '../images/nvim1.png';
 import nvim2 from '../images/nvim2.png';
 import nvim3 from '../images/nvim3.png';
@@ -27,7 +29,7 @@ function Home() {
                 </p>
                 <button
                     onClick={() =>
-                        window.open('/Robert-McCrary-Resume.pdf', '_blank')
+                        window.open('/Robert_McCrary_Resume.pdf', '_blank')
                     }
                     className="mt-6 px-4 py-2 md:px-6 md:py-3 bg-green-500 text-gray-900 font-semibold rounded shadow-lg hover:bg-green-400"
                 >
@@ -93,6 +95,26 @@ function Home() {
                     {/* Project Card */}
                     <div className="bg-gray-800 p-4 rounded shadow hover:shadow-lg transform hover:scale-105 transition">
                         <h3 className="text-xl font-semibold text-green-400">
+                            OwlSpot
+                        </h3>
+                        <p className="mt-2 text-gray-400">
+                            Integrated real-time CCTV footage with a computer
+                            vision model to detect available parking spots.
+                        </p>
+                        <div className="mt-4 flex">
+                            <a
+                                href="/owlspot"
+                                rel="noopener noreferrer"
+                                className="text-green-400 hover:text-green-300 underline"
+                            >
+                                View Demo
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Project Card */}
+                    <div className="bg-gray-800 p-4 rounded shadow hover:shadow-lg transform hover:scale-105 transition">
+                        <h3 className="text-xl font-semibold text-green-400">
                             Compiler In Go
                         </h3>
                         <p className="mt-2 text-gray-400">
@@ -103,28 +125,6 @@ function Home() {
                         <div className="mt-4 flex">
                             <a
                                 href="https://github.com/robertlmccrary/CompilerInGo"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-green-400 hover:text-green-300 underline"
-                            >
-                                GitHub
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* Project Card */}
-                    <div className="bg-gray-800 p-4 rounded shadow hover:shadow-lg transform hover:scale-105 transition">
-                        <h3 className="text-xl font-semibold text-green-400">
-                            NN From Scratch
-                        </h3>
-                        <p className="mt-2 text-gray-400">
-                            A neural network built from first principles
-                            implementing forward and backpropagation and XOR
-                            operations.
-                        </p>
-                        <div className="mt-4 flex">
-                            <a
-                                href="https://github.com/RobertLMcCrary/NN-From-Scratch.git"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-green-400 hover:text-green-300 underline"
@@ -171,7 +171,37 @@ function Home() {
                             />
                         </div>
                     </div>
-                    {/* Repeat for other achievements */}
+
+                    <div className="bg-gray-800 p-4 rounded shadow hover:shadow-lg transform hover:scale-105 transition">
+                        <h3 className="text-xl font-semibold text-green-400">
+                            KSU Sports Innovation Hackathon - 1st Place
+                        </h3>
+                        <p className="mt-2 text-gray-400">
+                            AI-assisted mobile app for smart parking at Kennesaw
+                            State University events. Built with React Native,
+                            Node.js, Express.js, and Flask. Integrated real-time
+                            CCTV footage with a Python-based computer vision
+                            model to detect available parking spots. Won 1st
+                            place at the KSU Sports Innovation Hackathon,
+                            earning $3,000 in funding.
+                        </p>
+                        <div className="mt-4 grid grid-cols-2 md:grid-cols-2 gap-4">
+                            <Image
+                                src={hackathon4}
+                                alt="Project Presentation"
+                                width={300}
+                                height={300}
+                                className="w-full h-full object-cover rounded"
+                            />
+                            <Image
+                                src={hackathon6}
+                                alt="Project Presentation"
+                                width={300}
+                                height={300}
+                                className="w-full h-full object-cover rounded"
+                            />
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -372,7 +402,22 @@ function Home() {
                         </svg>
                     </a>
                     <a
-                        href="mailto:rlmccrary@gmail.com"
+                        href="https://youtube.com/@CodingWithRobert"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-green-400 hover:text-green-300 flex items-center gap-2"
+                    >
+                        <svg
+                            className="w-6 h-6"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                        >
+                            <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </a>
+
+                    <a
+                        href="/contact"
                         className="text-green-400 hover:text-green-300 flex items-center gap-2"
                     >
                         <svg
@@ -388,7 +433,9 @@ function Home() {
 
             {/* Footer Section */}
             <footer className="w-full py-6 bg-gray-800 text-gray-400 text-center">
-                <p className="mb-[5px]">Robert McCrary</p>
+                <p className="mb-[5px]">
+                    <a href="/">Robert McCrary</a>
+                </p>
                 <div className="flex justify-center space-x-8">
                     <a
                         href="https://github.com/RobertLMcCrary"
