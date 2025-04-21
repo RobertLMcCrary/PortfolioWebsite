@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Add this to the top of your globals.css file */
+html, body {
+    background-color: rgb(31, 41, 55); /* This is the tailwind bg-gray-900 color */
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
+
 :root {
     --background: #000000;
     --foreground: #ffffff;

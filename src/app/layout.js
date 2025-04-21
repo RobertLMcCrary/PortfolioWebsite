@@ -1,6 +1,8 @@
 import localFont from 'next/font/local';
 import './globals.css';
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/react';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
@@ -15,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata = {
     title: 'Robert McCrary',
-    description: 'Web | Embedded | AI',
+    description: 'Web | Mobile | AI',
 };
 
 export default function RootLayout({ children }) {
@@ -28,9 +30,11 @@ export default function RootLayout({ children }) {
                 />
             </head>
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900`}
             >
-                {children}
+                <Navbar />
+                <div className="mt-[68px]">{children}</div>
+                <Footer />
                 <Analytics />
             </body>
         </html>

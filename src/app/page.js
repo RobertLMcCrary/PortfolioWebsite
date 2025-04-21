@@ -14,6 +14,9 @@ import nvim2 from '../images/nvim2.png';
 import nvim3 from '../images/nvim3.png';
 import profilepic from '../images/profilepic.png';
 
+//components
+import Footer from './components/Footer';
+
 import './globals.css';
 
 function Home() {
@@ -25,7 +28,7 @@ function Home() {
                     Robert McCrary
                 </h1>
                 <p className="mt-4 text-md md:text-lg text-gray-400">
-                    Web Development | Machine Learning | Embedded Systems
+                    Web | Mobile | AI
                 </p>
                 <button
                     onClick={() =>
@@ -45,13 +48,19 @@ function Home() {
                             About Me
                         </h2>
                         <p className="mt-4 text-gray-400">
-                            Hello! I&apos;m Robert, a developer with a deep
-                            passion for coding, problem-solving, and
-                            contributing to open-source. I specialize in
-                            crafting efficient, scalable, and maintainable
-                            applications using modern technologies such as
-                            Next.js, JavaScript, TypeScript, Go, Python, and
-                            MongoDB.
+                            Hi, I&apos;m Robert. I&apos;m a full-stack
+                            developer, startup founder, and builder obsessed
+                            with turning ideas into real products. I specialize
+                            in crafting scalable, production-ready applications
+                            using technologies like React Native, Next.js,
+                            Node.js, Express, SQL, MongoDB, and AWS. I&apos;m
+                            currently building Ventur, a smart travel planning
+                            app powered by AWS and realtime travel API&apos;s.
+                            Whether it&apos;s shipping client-side apps into
+                            production, server-side scripting, or scaling side
+                            projects into revenue-generating businesses, I bring
+                            both the technical depth and founder mentality to
+                            ship fast and iterate smarter.
                         </p>
                     </div>
                     <div className="md:w-1/3">
@@ -361,7 +370,7 @@ function Home() {
             </section>
 
             {/* Contact Section */}
-            <section className="w-[90vw] max-w-5xl py-12 border-b border-gray-700 text-center">
+            <section className="w-[90vw] max-w-5xl py-12  text-center">
                 <h2 className="text-3xl font-bold text-green-400">
                     Let&apos;s Connect
                 </h2>
@@ -430,31 +439,6 @@ function Home() {
                     </a>
                 </div>
             </section>
-
-            {/* Footer Section */}
-            <footer className="w-full py-6 bg-gray-800 text-gray-400 text-center">
-                <p className="mb-[5px]">
-                    <a href="/">Robert McCrary</a>
-                </p>
-                <div className="flex justify-center space-x-8">
-                    <a
-                        href="https://github.com/RobertLMcCrary"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-green-400 transition-colors"
-                    >
-                        GitHub
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/robertlmccrary"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-green-400 transition-colors"
-                    >
-                        LinkedIn
-                    </a>
-                </div>
-            </footer>
         </div>
     );
 }

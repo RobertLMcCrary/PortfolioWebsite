@@ -1,0 +1,128 @@
+[
+    {
+        "id": "saas-web-clerk-mongodb-stripe",
+        "name": "SaaS Starter Kit (Web) - Clerk + MongoDB + Stripe",
+        "description": "Kickstart your SaaS web app with Clerk authentication, MongoDB, and Stripe integration.",
+        "longDescription": "This SaaS starter kit is the perfect foundation for launching a subscription-based web application. Built with Next.js, Clerk for authentication, MongoDB for flexible database storage, and Stripe for subscription billing, this kit provides a complete and scalable architecture out of the box.",
+        "price": "$69.99",
+        "image": "/images/saas1.png",
+        "tags": ["SaaS", "Web", "Next.js", "MongoDB", "Clerk", "Stripe"],
+        "features": [
+            "Next.js 13+ with App Router",
+            "Clerk authentication system",
+            "MongoDB + Mongoose integration",
+            "Stripe billing and subscription setup",
+            "Fully responsive UI with Tailwind CSS"
+        ]
+    },
+    {
+        "id": "saas-web-supabase-stripe",
+        "name": "SaaS Starter Kit (Web) - Supabase + Stripe",
+        "description": "Full-stack SaaS boilerplate with Supabase authentication, Supabase DB, and Stripe.",
+        "longDescription": "This web-based SaaS starter kit combines the power of Next.js, Supabase for both auth and database, and Stripe for monetization. Ideal for launching products quickly with minimal setup and powerful features.",
+        "price": "$69.99",
+        "image": "/images/saas2.png",
+        "tags": ["SaaS", "Web", "Next.js", "Supabase", "Stripe"],
+        "features": [
+            "Supabase authentication and database",
+            "Next.js framework with API routes",
+            "Stripe billing and webhooks pre-configured",
+            "TypeScript and Tailwind CSS support",
+            "Role-based access control"
+        ]
+    },
+    {
+        "id": "saas-mobile-express-supabase",
+        "name": "SaaS Starter Kit (Mobile) - Supabase + Node.js",
+        "description": "Mobile SaaS boilerplate using React Native Expo with Supabase and a Node.js backend.",
+        "longDescription": "This mobile-focused SaaS starter kit uses React Native Expo for frontend, Supabase for auth and storage, and a Node.js + Express backend with Stripe integration. Built for performance and scalability across iOS and Android.",
+        "price": "$79.99",
+        "image": "/images/saas3.png",
+        "tags": [
+            "SaaS",
+            "Mobile",
+            "React Native",
+            "Supabase",
+            "Node.js",
+            "Stripe"
+        ],
+        "features": [
+            "React Native Expo template",
+            "Supabase authentication and RLS",
+            "Node.js + Express backend boilerplate",
+            "Stripe integration for mobile payments",
+            "Navigation, state management, and UI components"
+        ]
+    },
+    {
+        "id": "saas-mobile-express-mongodb",
+        "name": "SaaS Starter Kit (Mobile) - MongoDB + Supabase Auth",
+        "description": "Launch mobile apps faster with this React Native + Node/Express + MongoDB + Supabase starter.",
+        "longDescription": "Includes React Native Expo for UI, Supabase for secure auth, and a custom Express.js server with MongoDB support. Stripe billing is pre-integrated for subscriptions. Ideal for mobile-first SaaS platforms.",
+        "price": "$79.99",
+        "image": "/images/saas4.png",
+        "tags": [
+            "Mobile",
+            "React Native",
+            "Supabase",
+            "MongoDB",
+            "Node.js",
+            "Stripe"
+        ],
+        "features": [
+            "Expo-based mobile template",
+            "Supabase auth with session handling",
+            "MongoDB with Mongoose",
+            "Node/Express backend for APIs",
+            "Stripe billing and webhooks"
+        ]
+    },
+    {
+        "id": "sideproject-web-supabase",
+        "name": "Side Project Starter Kit (Web) - Supabase",
+        "description": "Next.js + Supabase stack to launch side projects quickly and securely.",
+        "longDescription": "This kit is designed for side project builders who want to focus on features, not setup. It comes with Supabase authentication, database, and easy deployment options.",
+        "price": "$49.99",
+        "image": "/images/side1.png",
+        "tags": ["Side Project", "Next.js", "Supabase", "Web"],
+        "features": [
+            "Next.js setup with Supabase client",
+            "User auth with row-level security",
+            "Simple CRUD operations pre-configured",
+            "Clean UI and Tailwind integration",
+            "Prebuilt components for fast development"
+        ]
+    },
+    {
+        "id": "sideproject-web-clerk",
+        "name": "Side Project Starter Kit (Web) - Clerk + Supabase/Mongo",
+        "description": "Combine Clerk authentication with your preferred database for fast web development.",
+        "longDescription": "Choose between Supabase or MongoDB depending on your needs. This flexible starter kit works perfectly for solo developers launching MVPs or prototypes.",
+        "price": "$49.99",
+        "image": "/images/side2.png",
+        "tags": ["Side Project", "Next.js", "Clerk", "Supabase", "MongoDB"],
+        "features": [
+            "Clerk authentication system",
+            "Choose from Supabase or MongoDB",
+            "Built-in protected routes and user sessions",
+            "Next.js 13 App Router",
+            "Minimal setup, easy deployment"
+        ]
+    },
+    {
+        "id": "sideproject-mobile-supabase",
+        "name": "Side Project Starter Kit (Mobile) - Supabase",
+        "description": "Lightweight React Native Expo starter kit with Supabase auth and secure database access.",
+        "longDescription": "Perfect for indie devs and students, this mobile starter kit uses Supabase auth and database with row-level security. Easily expandable and optimized for rapid development.",
+        "price": "$59.99",
+        "image": "/images/side3.png",
+        "tags": ["Side Project", "Mobile", "React Native", "Supabase"],
+        "features": [
+            "React Native Expo with Supabase integration",
+            "Secure auth and RLS enabled",
+            "Simple UI components for login/signup",
+            "State management and API hooks",
+            "Ideal for learning and small launches"
+        ]
+    }
+]

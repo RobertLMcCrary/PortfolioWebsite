@@ -176,31 +176,6 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-
-            {/* Footer Section */}
-            <footer className="w-full py-6 bg-gray-800 text-gray-400 text-center mt-auto">
-                <p className="mb-[5px]">
-                    <a href="/">Robert McCrary</a>
-                </p>
-                <div className="flex justify-center space-x-8">
-                    <a
-                        href="https://github.com/RobertLMcCrary"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-green-400 transition-colors"
-                    >
-                        GitHub
-                    </a>
-                    <a
-                        href="https://linkedin.com/in/robertlmccrary"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-green-400 transition-colors"
-                    >
-                        LinkedIn
-                    </a>
-                </div>
-            </footer>
         </div>
     );
 }
