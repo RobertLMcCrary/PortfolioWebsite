@@ -5,7 +5,7 @@
         "description": "Kickstart your SaaS web app with Clerk authentication, MongoDB, and Stripe integration.",
         "longDescription": "This SaaS starter kit is the perfect foundation for launching a subscription-based web application. Built with Next.js, Clerk for authentication, MongoDB for flexible database storage, and Stripe for subscription billing, this kit provides a complete and scalable architecture out of the box.",
         "price": "$69.99",
-        "image": "/images/saas1.png",
+        "image": "/images/next-mongo-clerk.png",
         "tags": ["SaaS", "Web", "Next.js", "MongoDB", "Clerk", "Stripe"],
         "features": [
             "Next.js 13+ with App Router",
@@ -21,7 +21,7 @@
         "description": "Full-stack SaaS boilerplate with Supabase authentication, Supabase DB, and Stripe.",
         "longDescription": "This web-based SaaS starter kit combines the power of Next.js, Supabase for both auth and database, and Stripe for monetization. Ideal for launching products quickly with minimal setup and powerful features.",
         "price": "$69.99",
-        "image": "/images/saas2.png",
+        "image": "/images/next-supabase-stripe.png",
         "tags": ["SaaS", "Web", "Next.js", "Supabase", "Stripe"],
         "features": [
             "Supabase authentication and database",
@@ -33,11 +33,11 @@
     },
     {
         "id": "saas-mobile-express-supabase",
-        "name": "SaaS Starter Kit (Mobile) - Supabase + Node.js",
+        "name": "SaaS Starter Kit (Mobile) - React Native + Supabase",
         "description": "Mobile SaaS boilerplate using React Native Expo with Supabase and a Node.js backend.",
         "longDescription": "This mobile-focused SaaS starter kit uses React Native Expo for frontend, Supabase for auth and storage, and a Node.js + Express backend with Stripe integration. Built for performance and scalability across iOS and Android.",
         "price": "$79.99",
-        "image": "/images/saas3.png",
+        "image": "/images/expo-supabase-stripe.png",
         "tags": [
             "SaaS",
             "Mobile",
@@ -60,7 +60,7 @@
         "description": "Launch mobile apps faster with this React Native + Node/Express + MongoDB + Supabase starter.",
         "longDescription": "Includes React Native Expo for UI, Supabase for secure auth, and a custom Express.js server with MongoDB support. Stripe billing is pre-integrated for subscriptions. Ideal for mobile-first SaaS platforms.",
         "price": "$79.99",
-        "image": "/images/saas4.png",
+        "image": "/images/expo-supabase-stripe-mongo.png",
         "tags": [
             "Mobile",
             "React Native",

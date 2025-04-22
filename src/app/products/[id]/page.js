@@ -100,7 +100,7 @@ export default function ProductDetail() {
                                 {product.price}
                             </div>
                             <button className="w-full px-6 py-3 bg-green-500 text-gray-900 font-semibold rounded hover:bg-green-400 transition-colors">
-                                Add to Cart
+                                Add to Cart (Comming Soon)
                             </button>
                         </div>
                     </div>

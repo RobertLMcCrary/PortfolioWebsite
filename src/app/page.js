@@ -3,20 +3,6 @@
 import { useEffect, useState } from 'react';
 import GitHubCalendar from 'react-github-calendar';
 import Image from 'next/image';
-
-//images
-import hackathon2 from '../images/hackathon2.jpg';
-import hackathon3 from '../images/hackathon3.jpg';
-import hackathon4 from '../images/hackathon4.jpg';
-import hackathon6 from '../images/hackathon6.jpg';
-import nvim1 from '../images/nvim1.png';
-import nvim2 from '../images/nvim2.png';
-import nvim3 from '../images/nvim3.png';
-import profilepic from '../images/profilepic.png';
-
-//components
-import Footer from './components/Footer';
-
 import './globals.css';
 
 function Home() {
@@ -65,7 +51,7 @@ function Home() {
                     </div>
                     <div className="md:w-1/3">
                         <Image
-                            src={profilepic}
+                            src="/images/profilepic.png"
                             alt="Robert McCrary"
                             width={300}
                             height={300}
@@ -165,14 +151,14 @@ function Home() {
                         </p>
                         <div className="mt-4 grid grid-cols-2 md:grid-cols-2 gap-4">
                             <Image
-                                src={hackathon2}
+                                src="/images/hackathon2.jpg"
                                 alt="Project Presentation"
                                 width={300}
                                 height={300}
                                 className="w-full h-full object-cover rounded"
                             />
                             <Image
-                                src={hackathon3}
+                                src="/images/hackathon3.jpg"
                                 alt="Award Ceremony"
                                 width={300}
                                 height={300}
@@ -196,14 +182,14 @@ function Home() {
                         </p>
                         <div className="mt-4 grid grid-cols-2 md:grid-cols-2 gap-4">
                             <Image
-                                src={hackathon4}
+                                src="/images/hackathon4.jpg"
                                 alt="Project Presentation"
                                 width={300}
                                 height={300}
                                 className="w-full h-full object-cover rounded"
                             />
                             <Image
-                                src={hackathon6}
+                                src="/images/hackathon6.jpg"
                                 alt="Project Presentation"
                                 width={300}
                                 height={300}
@@ -222,21 +208,21 @@ function Home() {
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         <Image
-                            src={nvim2}
+                            src="/images/nvim2.png"
                             alt="Neovim Configuration"
                             width={500}
                             height={300}
                             className="rounded shadow-lg"
                         />
                         <Image
-                            src={nvim1}
+                            src="/images/nvim1.png"
                             alt="Neovim in Action"
                             width={500}
                             height={300}
                             className="rounded shadow-lg"
                         />
                         <Image
-                            src={nvim3}
+                            src="/images/nvim3.png"
                             alt="Neovim in Action"
                             width={500}
                             height={300}

@@ -12,11 +12,11 @@ export default function Products() {
     const [availableTags, setAvailableTags] = useState([]);
 
     useEffect(() => {
-        // Load products from JSON file
+        //load products from JSON file
         setProducts(productsData);
         setFilteredProducts(productsData);
 
-        // Extract all unique tags
+        //extract all unique tags
         const tags = [];
         productsData.forEach((product) => {
             product.tags.forEach((tag) => {
@@ -29,10 +29,10 @@ export default function Products() {
     }, []);
 
     useEffect(() => {
-        // Filter products based on search term and selected tags
+        //filter products based on search term and selected tags
         let results = products;
 
-        // Filter by search term
+        //filter by search term
         if (searchTerm) {
             const term = searchTerm.toLowerCase();
             results = results.filter(
